@@ -2,7 +2,7 @@
 function Company(){
     return(
         <div>
-            <h1>company</h1>
+            <h1>Company</h1>
         </div>
     )
 }

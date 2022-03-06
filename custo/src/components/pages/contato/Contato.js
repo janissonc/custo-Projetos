@@ -1,7 +1,7 @@
 function Contato (){
     return (
         <div>
-            <h1>contato</h1>
+            <h1>Contato</h1>
         </div>
     )
 }
