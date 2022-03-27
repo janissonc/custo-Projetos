@@ -18,6 +18,7 @@ function ProjectFrom({handleSubmit,btnText, projectData}) {
         })
         .then((resp)=>resp.json())
         .then((data)=>{
+            console.log(categories)
             setCategories(data)
         })
         .catch((err)=>{console.error(err)})
@@ -34,12 +35,13 @@ function ProjectFrom({handleSubmit,btnText, projectData}) {
     }
 
     function handleCategory(e){
-        //console.log(project.category)
+        const categoria = categories.find(c=>c.id == e.target.value)
         setProject({
             ...project,
             category: {
-            id: e.target.value,
-            name: e.target.options[e.target.selectedIndex].text,
+            id: categoria.id,
+            name: categoria.name,
+            color: categoria.color,
             },
         })
     }

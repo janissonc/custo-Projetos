@@ -2,164 +2,49 @@
   "projects": [
     {
       "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "name": "teste",
-      "budget": "50000",
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "category": {
         "id": "2",
-        "name": "Desenvolvimento"
+        "name": "Desenvolvimento",
+        "color": "#A0E7E5"
       },
-      "name": "projeto teste ",
-      "budget": "50000",
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "name": "projeto teste ",
-      "budget": "50000",
+      "name": "projeto teste sdfs",
+      "budget": "500000",
       "cost": 0,
       "services": [],
       "id": 3
     },
     {
-      "name": "projeto de teste 2",
-      "budget": "50000",
+      "name": "diamondweb",
+      "budget": "20000",
       "category": {
         "id": "2",
-        "name": "Desenvolvimento"
+        "name": "Desenvolvimento",
+        "color": "#A0E7E5"
       },
       "cost": 0,
       "services": [],
       "id": 4
-    },
-    {
-      "name": "teste",
-      "budget": "121212121",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "eee",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "budget": "23423423",
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "asdasda",
-      "budget": "231313213",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "erara",
-      "budget": "2313213231",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "name": "asdasdasdas",
-      "budget": "12312312312",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "name": "ASDASD",
-      "budget": "123123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 10
-    },
-    {
-      "name": "SDFSFD",
-      "budget": "132132312",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
-      "name": "asda",
-      "budget": "12312312",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 12
-    },
-    {
-      "name": "sdsaddas",
-      "budget": "2123123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 13
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Infra"
+      "name": "Infra",
+      "color": "#FFAEBC"
     },
     {
       "id": 2,
-      "name": "Desenvolvimento"
+      "name": "Desenvolvimento",
+      "color": "#A0E7E5"
     },
     {
       "id": 3,
-      "name": "Correção"
+      "name": "Correção",
+      "color": "#B4F8C8"
     },
     {
       "id": 4,
-      "name": "Levantamento"
+      "name": "Levantamento",
+      "color": "#FBE7C6"
     }
   ]
 }
