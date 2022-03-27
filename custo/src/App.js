@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/pages/home/Home';
 import Contato from './components/pages/contato/Contato';
 import Company from './components/pages/company/Company';
-import NewProject from './components/pages/newProject/NewProject';
+import NewProject from './components/pages/projects/newProject/NewProject';
 import Projects from './components/pages/projects/Projects';
 
 import Container from './components/shared/layout/Container';
 import NavBar from './components/shared/layout/navbar/NavBar';
 import Footer from './components/shared/layout/footer/Footer';
-import Project from './components/pages/project/Project';
+import Project from './components/pages/projects/project/Project';
 
 
 function App() {

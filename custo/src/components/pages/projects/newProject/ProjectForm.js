@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 
-import Input from '../../shared/form/Input'
-import Select from '../../shared/form/Select'
-import SubmitButton from '../../shared/form/SubmitButton'
+import Input from '../../../shared/form/Input'
+import Select from '../../../shared/form/Select'
+import SubmitButton from '../../../shared/form/SubmitButton'
 import styles from './ProjectForm.module.css'
 
 function ProjectFrom({handleSubmit,btnText, projectData}) {
@@ -22,6 +22,7 @@ function ProjectFrom({handleSubmit,btnText, projectData}) {
             setCategories(data)
         })
         .catch((err)=>{console.error(err)})
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
   
     const submit = (e) => {
@@ -35,7 +36,7 @@ function ProjectFrom({handleSubmit,btnText, projectData}) {
     }
 
     function handleCategory(e){
-        const categoria = categories.find(c=>c.id == e.target.value)
+        const categoria = categories.find(c=>parseFloat(c.id) === e.target.value)
         setProject({
             ...project,
             category: {
